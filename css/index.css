@@ -1,0 +1,99 @@
+/* Estilos gerais */
+
+body {
+    display: block;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #dc143c 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    float: right;
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+#about,
+#features,
+#buy-now {
+    padding: 20px 0;
+}
+
+#about h2,
+#features h2,
+#buy-now h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: #ccc 1px solid;
+}
+
+a.button {
+    height: 55px;
+    color: #fff;
+    background-color:green;
+    border: none;
+    padding: 10px 5px 60px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    height: auto;
+    width: 300px;
+
+}
+@media screen and (max-width: 768px){
+    produto-containe{
+        width: 100%;
+        flex-direction: column;
+    }
+}
